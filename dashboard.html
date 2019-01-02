@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS AND INDEXED DB LOGIN WEBAPP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/home.css" />
+    <script src="./jscripts/checkAuth.js"></script>
+</head>
+<body style="text-align: center; background-color: bisque;">
+    <h1 style="font-size: 19px; text-decoration: underline; margin: 0;">JS-and-IndexedDB-WEB-APP</h1>
+    <br>
+    <span id="logout" >
+            <input type="submit" value="Logout" id="logout-btn">
+    </span>
+    <br>
+    <h1>Welcome to the DashBoard</h1>
+    <div>
+        <h4>Contents</h4>
+    </div>
+        <p>Username:<span id="user-name" style="color: brown;"></span>   </p> 
+        <p>Status:<span id="status" style="color: rgb(32, 53, 32);"></span></p>
+    </div>
+    <br>
+    <div>
+        <a href="user/home.html" class="button" id="explore">EXPLORE</a>
+    </div>
+
+
+        
+    </div>
+    <script src="./includes/db.js"></script>
+    <script src="./jscripts/connect-indexed.js"></script>
+    <script src="./jscripts/login.js"></script>
+    <script src="./jscripts/dashboard.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PHP-CRUD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../jscripts/checkAuth.js"></script>
+</head>
+<body style="text-align: center; background-color: fefefe;">
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="../dashboard.html">Back</a>
+        </nav>
+       
+        <h2>Crypt some Strings:</h2>
+        <form>
+        <input type="text" id="crypt-input">
+        <input type="submit" value="crypt" id="crypt">
+        </form>
+        <br>
+        <div>
+           <span id="origin-disp" style="font-weight: bold; margin-right: 8px;"></span> <span id="crypt-disp"></span>
+        </div>
+        <br>
+        <div>
+            <span id="notes" style="color: red;"></span>
+        </div>
+    <script src="../includes/db.js"></script>
+    <script src="../includes/crypto.js"></script>
+    <script src="../jscripts/user/home.js"></script>
+
+</body>
+</html>
